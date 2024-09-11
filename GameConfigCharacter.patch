@@ -1,0 +1,16 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/config/Character.ini dist/game/config/Character.ini
+index e64d12e..4d9119b 100644
+--- dist/game/config/Character.ini
++++ dist/game/config/Character.ini
+@@ -848,8 +848,7 @@
+ 
+ # Max player level for free teleporting around the world.
+ # Default: 99
+-MaxFreeTeleportLevel = 99
+-
++MaxFreeTeleportLevel = 104
+ # Allow character deletion after days set below. To disallow character deletion, set this equal to 0.
+ # Default: 1
+ DeleteCharAfterDays = 1

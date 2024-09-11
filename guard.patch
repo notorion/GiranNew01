@@ -1,0 +1,16 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/data/html/guard/30121.htm dist/game/data/html/guard/30121.htm
+index 27ce5a5..a981507 100644
+--- dist/game/data/html/guard/30121.htm
++++ dist/game/data/html/guard/30121.htm
+@@ -1,5 +1,4 @@
+-<html><body>Captain Jeronin:<br>
+-Welcome, traveler. I am Captain Jeronin, and I train guards and keep order in town in the service of Sir Ortho Lancer. Ours is a commercial town, so we have many people who come and go. And because of that, we invest a lot of effort into keeping order and peace around here.<br>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_TerritoryStatus">"Can you tell me about the local lord and tax rate?"</Button>
+-<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Quest</Button>
++<html><body>Guard Captain Jeronin:<br>
++Welcome, traveler. I am Captain Jeronin, Under the supervision of Sir Ortho Lancer, I'm in charge of training guards and maintaining order in the village. Since we are an industrial town, we get many people coming and going, maintaining order can require some considerable effort.<br>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_TerritoryStatus">"Tell me about the local lord and tax rate."</Button>
+ </body></html>
+\ No newline at end of file
